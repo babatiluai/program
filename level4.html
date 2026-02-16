@@ -6,6 +6,75 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- action in form -->
+     <!-- action attribute is used to define what action needs to be performed when a form is submitted -->
+      <form action="/action.php">
+        <hr>
+    <!-- form element : input -->
+     <input type="text" placeholder="enter name">
+     <!-- same for password -->
+    <input type="password" placeholder="password">
+        <hr>
+    <h1>LABEL APPLY</h1>
+    <h3>this is for normal type as minimal input</h3>
+    <!-- this is important that value and output value must be same -->
+     <!-- when user click output value the value="class X" goes to backend  -->
+    <input type="radio" value="class X" name="class">CLASS X
+    <input type="radio" value="class XI" name="class">CLASS XI
+    <hr>
+    <h3>this is advance using label</h3>
+    <!-- 1: add a id value on the input part  -->
+     <!-- 2: add label tag -->
+      <!-- 3: enter id value on or about the subject -->
+    <label for="10">
+    <input type="radio" value="class X" name="class" id="10">CLASS X
+    </label>
+    <label for="11">
+    <input type="radio" value="class XI" name="class" id="11">CLASS XI
+    </label>
+    <hr>
+    <h1>class & id </h1>
+    <div id="id1" class="group1">THIS IS ID 1 group1</div>
+    <div id="id2" class="group1">THIS IS ID 2 group1</div>
+    <hr>
+    <h2>checkbox</h2>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="100" >math
+    </label>
+    <label for="english">
+        <input type="checkbox" value="english" name="subject" id="101" >english
+    </label>
+    <label for="sanskrit">
+        <input type="checkbox" value="sanskrit" name="subject" id="102" >sanskrit
+    </label>
+    <label for="mil">
+        <input type="checkbox" value="mil" name="subject" id="103" >mil
+    </label>
+    <hr>
+    <textarea name="feedback" id="101" placeholder="give your feedback" hight="10"> feedback</textarea>
+
+    <hr>
+    <h1>SELECT TAG</h1>
+    <h2>ENTER YOUR CITY</h2>
+    <!-- id is required for css so this id is optional -->
+    <select name="city" id="112321 etc">
+        <option value="odisha">odisha</option>
+        <option value="delhi">delhi</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+    </select>
+
+    <!-- submit button -->
+    <input type="submit" value="submit" ></form>
+
+    <hr>
+    <!-- iframe tag is use to represent a web-page in your website  -->
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/6NNmDcisnQ8?si=q0ODUomF9rIV-Zrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <iframe width="560" height="315" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+<hr>
+ <!-- video tag -->
+<video width="560" height="315" src="/HTML-FILE/skeleton.mp4" controls loop >skeleton video</video>
+
 </body>
 </html>
